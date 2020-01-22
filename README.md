@@ -13,7 +13,7 @@ This signals that the room should be aerated.
 
 Install the *Adafruit CCS811 Library* from the Arduino IDE Library Manager.
 
-Open the ccs811-voc/ccs811-voc.ino file the Arduino IDE and upload sketch.
+Open the ccs811-voc/ccs811-voc.ino file in the Arduino IDE and upload sketch.
 
 ## Installation with Arduino-cli
 
