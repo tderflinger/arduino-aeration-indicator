@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<module moduleId="ccs811" fritzingVersion="0.9.3b" referenceFile="ccs811.fzp">
+  <version>1</version>
+  <date>Th Jan 23 2020</date>
+  <author>Thomas Derflinger</author>
+  <description>CCS811 sensor measuring CO2 and TVOC, breakout board by Joy-it.</description>
+  <title>CCS811 Sensor</title>
+  <label>Mod</label>
+  <url>https://joy-it.net/en/products/SEN-CCS811V1</url>
+  <tags>
+    <tag>Sensor</tag>
+    <tag>CCS811</tag>
+    <tag>CO2</tag>
+    <tag>TVOC</tag>
+  </tags>
+  <properties>
+    <property name="family">ccs811</property>
+    <property name="variant">variant 1</property>
+    <property name="part number"/>
+  </properties>
+  <views>
+    <breadboardView>
+      <layers image="breadboard/ccs811_breadboard.svg">
+        <layer layerId="breadboard"/>
+      </layers>
+    </breadboardView>
+    <iconView>
+      <layers image="icon/ccs811_icon.svg">
+        <layer layerId="icon"/>
+      </layers>
+    </iconView>
+    <schematicView>
+      <layers image="breadboard/ccs811_breadboard.svg">
+        <layer layerId="schematic"/>
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="breadboard/ccs811_breadboard.svg">
+        <layer layerId="copper1"/>
+        <layer layerId="silkscreen"/>
+        <layer layerId="copper0"/>
+      </layers>
+    </pcbView>
+  </views>
+  <connectors>
+    <connector id="connector1" type="male" name="VIN">
+      <description>VIN</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal"/>
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal"/>
+        </schematicView>
+        <pcbView>
+          <p svgId="connector1pin" layer="copper0"/>
+          <p svgId="connector1pin" layer="copper1"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="male" name="3V">
+      <description>3V</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector2pin" layer="breadboard" terminalId="connector2terminal"/>
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal"/>
+        </schematicView>
+        <pcbView>
+          <p svgId="connector2pin" layer="copper0"/>
+          <p svgId="connector2pin" layer="copper1"/>
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="male" name="GND">
+      <description>Ground</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector3pin" layer="breadboard" terminalId="connector3terminal"/>
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal"/>
+        </schematicView>
+        <pcbView>
+          <p svgId="connector3pin" layer="copper0"/>
+          <p svgId="connector3pin" layer="copper1"/>
+        </pcbView>
+      </views>
+    </connector>
+  </connectors>
+  <buses/>
+</module>
